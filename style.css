@@ -1,0 +1,104 @@
+body{
+    width: 25cm;
+    height: auto;
+    margin: 0 auto;
+    background-color: rgb(228, 228, 228);
+
+}
+.Noidung{
+    background-color: rgb(255, 255, 255);
+    margin-top: 1cm;
+    height: 21cm;
+}
+
+.Line1{
+    display: flex;
+}
+.search{
+    margin: 1.2cm 0cm 0cm 8cm;
+}
+.logo1{
+    width: 2cm;
+    height: 2cm;
+    border: 3px solid black;
+    border-radius: 3cm;
+    margin: 0.2cm 0cm 0cm 1cm;
+    transition: 1s;
+}
+.logo1:hover{
+    transform: scale(1.2);
+}
+.dangxuat{
+    margin: 2.3cm 0cm 0cm -2.2cm;
+    text-decoration: none;
+}
+ul li h2, .house{
+    margin-top: 15px;
+}
+.img1{
+    width: 5cm;
+    height: 2cm;
+    margin: 0cm 0cm 0cm 2cm;
+    border-radius: 1cm;
+    margin-top: 0.5cm;
+}
+ul{
+    list-style-type:none;
+    text-transform: uppercase;
+    margin-top: 20px;
+    padding: 0px 70px;
+    overflow: hidden;
+    background-size: 100%;
+    background-color: rgb(50, 99, 65);
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    background-attachment: fixed;
+    flex-wrap: nowrap;
+}
+li{
+    float:left;
+    padding: 0 auto;
+    margin-top: 5px;
+}
+li a, .dropbtn{
+    color: white;
+    padding: 20px 20px;
+    text-align: center;
+    text-decoration: none;
+}
+li a:hover, .dropdown:hover .dropbtn{
+    background-color: rgb(255, 253, 140);
+    color: rgb(0, 0, 0);
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 1px 18px;
+    overflow: hidden;
+}
+li.dropdown{
+    display: inline-block;
+}
+.dropdown-content{
+    float: left;
+    display: none;
+    position: absolute;
+    
+    background-color: rgb(107, 107, 107);
+    border: 2px solid white;
+    border-radius: 5px;
+    min-width: 100px;
+    height: auto;
+    box-shadow: 0px 8px 16px 0px rgb(23, 100, 64);   
+}
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+
+.mustlogin{
+    text-align: center;
+    margin: 5cm 0 0 0;
+    color: darkgray;
+}
+.mustlg{
+    text-decoration: none;
+    color: rgb(42, 65, 165);
+}

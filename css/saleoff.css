@@ -1,0 +1,204 @@
+body{
+    width: 25cm;
+    height: auto;
+    margin: 0 auto;
+    background-color: rgb(228, 228, 228);
+
+}
+.Noidung{
+    background-color: rgb(255, 255, 255);
+    margin-top: 1cm;
+    height: auto;
+}
+
+.Line1{
+    display: flex;
+}
+.search{
+    margin: 1.2cm 0cm 0cm 8cm;
+}
+.logo1{
+    width: 2cm;
+    height: 2cm;
+    border: 3px solid black;
+    border-radius: 3cm;
+    margin: 0.2cm 0cm 0cm 1cm;
+    transition: 1s;
+}
+.logo1:hover{
+    transform: scale(1.2);
+}
+.dangxuat{
+    margin: 2.3cm 0cm 0cm -2.2cm;
+    text-decoration: none;
+}
+ul li h2, .house{
+    margin-top: 15px;
+}
+.img1{
+    width: 5cm;
+    height: 2cm;
+    margin: 0cm 0cm 0cm 2cm;
+    border-radius: 1cm;
+    margin-top: 0.5cm;
+}
+ul{
+    list-style-type:none;   /*xoa cac dau cham cua ham ul*/
+    text-transform: uppercase;
+    margin-top: 20px;
+    padding: 0px 70px;
+    overflow: hidden;   /*Noi dung thanh menu se xuat hien*/
+    background-size: 100%;
+    background-color: rgb(50, 99, 65);
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    background-attachment: fixed;   /*Xác định thành phần nền được cố định hoặc cuộn so với trang*/
+    flex-wrap: nowrap;  /*Khong duoc xuong dong*/
+}
+li{
+    float:left;
+    padding: 0 auto;
+    margin-top: 5px;
+}
+li a, .dropbtn{
+    color: white;
+    padding: 20px 20px;
+    text-align: center;
+    text-decoration: none;
+}
+li a:hover, .dropdown:hover .dropbtn{
+    background-color: rgb(255, 253, 140);
+    color: rgb(0, 0, 0);
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 1px 18px;
+    overflow: hidden;   /*Khi chiều cao của box không đủ chứa text, thì text bị tràn sẽ được dấu đi.*/
+}
+li.dropdown{
+    display: inline-block;
+}
+.dropdown-content{
+    float: left;
+    display: none;  /*an menu xuat hien*/
+    position: fixed; /*di chuyển một phần tử nào đó mà không ảnh hưởng đến bố cục của website*/
+    
+    background-color: rgb(107, 107, 107);
+    border: 2px solid white;
+    border-radius: 5px;
+    min-width: 100px;
+    height: auto;
+    box-shadow: 0px 8px 16px 0px rgb(23, 100, 64);   
+}
+.dropdown:hover .dropdown-content{
+    display: block; /*cho menu duoc mo xuong*/
+}
+.noidung2{
+    width: 25cm;
+    height: auto;
+    margin: 0 auto;
+    display: flex;
+}
+.cottrai{
+    float: left;
+    margin-left: 1cm;
+    width: 400px;
+}
+.cottrai img{
+    width: 400px;
+    height: 450px;
+}
+.cotphai{
+    float: right;
+    width: 14cm;
+    margin-left: 0.5cm;
+}
+.line1{
+    display: flex;
+}
+.yeuthich{
+    border: 1px solid rgb(50, 99, 65);
+    background-color: rgb(50, 99, 65);
+    font-size: 12px;
+    margin-top: 0.6cm;
+    margin-right: 0.2cm;
+    width: 1.5cm;
+    height: 0.5cm;
+    color: white;
+}
+div.cotphai div.line1 h2{
+    margin-left: 0.2cm;
+}
+.cotphai div.line2{
+    display: flex;
+    font-size: 30px;
+    width: 7.5cm;
+    height: 1.5cm;
+    margin-top: 50%;
+}
+
+.sale1{
+    text-decoration-line: line-through;
+    margin-right: 0.2cm;
+    margin-left: 0.3cm;
+    margin-top: -0.0001cm;
+}
+.sale2{
+    color: red;
+    margin-top: -0.0001cm;
+}
+.buy{
+    border: 3px solid rgb(50, 99, 65);
+    background-color: rgb(50, 99, 65);
+    width: 5cm;
+    height: 1cm;
+}
+.buy h3{
+    text-align: center;
+    margin: auto 0;
+}
+.buy a{
+    text-decoration: none;
+    color: white;
+}
+.add a{
+    text-decoration: none;
+    color: white;
+}
+.add{
+    border: 3px solid rgb(50, 99, 65);
+    background-color: rgb(50, 99, 65);
+    width: 6cm;
+    height: 1cm;
+    margin-left: 5.5cm;
+    margin-top: -1.15cm;
+    margin-bottom: 0.5cm;
+}
+.add h3{
+    text-align: center;
+    margin: auto 0;
+}
+
+.end{
+    background-color: rgb(23, 100, 64);
+}
+.end2{
+    display: flex;
+    width: auto;
+    height: 1cm;
+    color: white;
+}
+.end1{
+    text-align: center;
+    font-size: 25px;
+    color: white;
+    padding: 20px 0px 0px 0px;
+}
+.end1 i{
+    padding: 0px 5px;
+}
+div div.end2{
+    margin-left: 17%;
+}
+h5{
+    padding: 0 10px;
+}

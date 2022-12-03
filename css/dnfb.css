@@ -1,0 +1,51 @@
+body{
+    width: 25cm;
+    height: auto;
+    margin: 0 auto;
+    background-color: rgb(228, 228, 228);
+
+}
+.Noidung{
+    background-color: rgb(255, 255, 255);
+    margin-top: 1cm;
+    width: 400px;
+    height: 400px;
+    
+}
+.dongy{
+    width: 250px;
+    height: 400px;
+    padding: 10px 10px;
+    margin: 0 auto;
+}
+.logo1{
+    width: 400px;
+    height: 150px;
+    margin: -0.2cm 0cm 0cm -1.98cm;
+}
+.logo2{
+    width: 5cm;
+    height: 5cm;
+    border: 1px solid black;
+    border-radius: 6cm;
+    display: block;
+    margin: 0 auto;
+    margin-top: 0cm;
+}
+.tucach{
+    width: 400px;
+    height: 40px;
+    padding: 0cm 0cm 0.65cm 0cm;
+    background: rgb(32, 84, 180);
+    border: 1px solid rgb(32, 84, 180);
+    text-align: center;
+    margin: 1.35cm 0cm 0cm -2cm;
+
+}
+div, .tucach a{
+    margin: 0 auto;
+}
+.change0{
+    text-decoration: none;
+    color: aliceblue;
+}
